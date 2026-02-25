@@ -1,6 +1,5 @@
 import random
 target=random.randint(0,100)
-print(target)
 while True:
     userchoise=int(input("choose a number:"))
     if(target==userchoise):
@@ -13,3 +12,4 @@ while True:
         print("you choose very large number choose lower number of ",userchoise)
 
 print("----------WELCOME GAME IS OVER-----------")
+print(("That Number is {}").format(target))
